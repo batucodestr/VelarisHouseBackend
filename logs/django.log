@@ -1,0 +1,222 @@
+WARNING 2026-08-18 20:36:29,961 exceptions ValidationError in RoomCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'keybox_code': [ErrorDetail(string='Keybox code must be numeric.', code='invalid')]}}
+WARNING 2026-08-18 20:36:29,962 log Bad Request: /api/rooms/create/
+WARNING 2026-08-18 20:36:31,490 exceptions PermissionDenied in RoomCreateView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-18 20:36:31,490 log Forbidden: /api/rooms/create/
+WARNING 2026-08-18 20:36:32,266 exceptions NotAuthenticated in RoomCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-18 20:36:32,267 log Unauthorized: /api/rooms/create/
+WARNING 2026-08-18 20:36:32,268 exceptions Http404 in RoomDetailView: {'detail': ErrorDetail(string='No Room matches the given query.', code='not_found')}
+WARNING 2026-08-18 20:36:32,269 log Not Found: /api/rooms/999/
+WARNING 2026-08-18 20:36:35,355 exceptions PermissionDenied in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-18 20:36:35,356 log Forbidden: /api/rooms/1/destroy/
+WARNING 2026-08-18 20:36:36,119 exceptions PermissionDenied in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-18 20:36:36,120 log Forbidden: /api/rooms/1/update/
+WARNING 2026-08-18 20:36:36,883 exceptions NotAuthenticated in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-18 20:36:36,883 log Unauthorized: /api/rooms/1/update/
+WARNING 2026-08-18 20:36:37,300 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'password': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-18 20:36:37,300 log Bad Request: /api/register/
+WARNING 2026-08-18 20:36:37,302 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'phone_number': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-18 20:36:37,302 log Bad Request: /api/register/
+WARNING 2026-08-18 20:36:37,303 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'username': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-18 20:36:37,303 log Bad Request: /api/register/
+WARNING 2026-08-18 20:39:08,632 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'password': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-18 20:39:08,633 log Bad Request: /api/register/
+WARNING 2026-08-18 20:39:08,634 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'phone_number': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-18 20:39:08,635 log Bad Request: /api/register/
+WARNING 2026-08-18 20:39:08,636 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'username': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-18 20:39:08,636 log Bad Request: /api/register/
+WARNING 2026-08-18 20:39:09,397 exceptions ValidationError in RoomCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'keybox_code': [ErrorDetail(string='Keybox code must be numeric.', code='invalid')]}}
+WARNING 2026-08-18 20:39:09,397 log Bad Request: /api/rooms/create/
+WARNING 2026-08-18 20:39:10,928 exceptions PermissionDenied in RoomCreateView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-18 20:39:10,928 log Forbidden: /api/rooms/create/
+WARNING 2026-08-18 20:39:11,729 exceptions NotAuthenticated in RoomCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-18 20:39:11,730 log Unauthorized: /api/rooms/create/
+WARNING 2026-08-18 20:39:11,731 exceptions Http404 in RoomDetailView: {'detail': ErrorDetail(string='No Room matches the given query.', code='not_found')}
+WARNING 2026-08-18 20:39:11,731 log Not Found: /api/rooms/999/
+WARNING 2026-08-18 20:39:14,791 exceptions PermissionDenied in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-18 20:39:14,792 log Forbidden: /api/rooms/1/destroy/
+WARNING 2026-08-18 20:39:15,553 exceptions PermissionDenied in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-18 20:39:15,553 log Forbidden: /api/rooms/1/update/
+WARNING 2026-08-18 20:39:16,312 exceptions NotAuthenticated in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-18 20:39:16,312 log Unauthorized: /api/rooms/1/update/
+WARNING 2026-08-19 00:05:33,490 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='Bu tarihler arasında oda müsait değil.', code='invalid')]}
+WARNING 2026-08-19 00:05:33,491 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:05:33,874 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='This room is not available for reservation.', code='invalid')]}
+WARNING 2026-08-19 00:05:33,874 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:05:34,255 exceptions NotAuthenticated in ReservationCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:05:34,256 log Unauthorized: /api/reservations/create/
+WARNING 2026-08-19 00:05:34,641 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='You already have an active reservation.', code='invalid')]}
+WARNING 2026-08-19 00:05:34,642 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:05:38,139 exceptions NotAuthenticated in ReservationListView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:05:38,139 log Unauthorized: /api/reservations/
+WARNING 2026-08-19 00:05:40,121 exceptions Http404 in ReservationRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='No Reservation matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:05:40,122 log Not Found: /api/reservations/1/
+WARNING 2026-08-19 00:05:41,269 exceptions Http404 in ReservationRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='No Reservation matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:05:41,270 log Not Found: /api/reservations/1/
+WARNING 2026-08-19 00:05:42,439 exceptions Http404 in ReservationRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='No Reservation matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:05:42,439 log Not Found: /api/reservations/1/
+WARNING 2026-08-19 00:05:48,203 exceptions NotAuthenticated in ReservationRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:05:48,203 log Unauthorized: /api/reservations/1/
+WARNING 2026-08-19 00:06:25,055 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='Bu tarihler arasında oda müsait değil.', code='invalid')]}
+WARNING 2026-08-19 00:06:25,056 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:06:25,445 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='This room is not available for reservation.', code='invalid')]}
+WARNING 2026-08-19 00:06:25,445 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:06:25,829 exceptions NotAuthenticated in ReservationCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:06:25,829 log Unauthorized: /api/reservations/create/
+WARNING 2026-08-19 00:06:26,212 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='You already have an active reservation.', code='invalid')]}
+WARNING 2026-08-19 00:06:26,212 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:06:29,628 exceptions NotAuthenticated in ReservationListView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:06:29,629 log Unauthorized: /api/reservations/
+WARNING 2026-08-19 00:06:31,515 exceptions Http404 in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='No Reservation matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:06:31,516 log Not Found: /api/reservations/1/
+WARNING 2026-08-19 00:06:32,652 exceptions Http404 in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='No Reservation matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:06:32,652 log Not Found: /api/reservations/1/
+WARNING 2026-08-19 00:06:37,198 exceptions NotAuthenticated in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:06:37,198 log Unauthorized: /api/reservations/1/
+WARNING 2026-08-19 00:06:38,338 exceptions MethodNotAllowed in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='Method "PATCH" not allowed.', code='method_not_allowed')}
+WARNING 2026-08-19 00:06:38,339 log Method Not Allowed: /api/reservations/1/
+WARNING 2026-08-19 00:06:39,095 exceptions ValidationError in RoomCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'keybox_code': [ErrorDetail(string='Keybox code must be numeric.', code='invalid')]}}
+WARNING 2026-08-19 00:06:39,095 log Bad Request: /api/rooms/create/
+WARNING 2026-08-19 00:06:40,610 exceptions PermissionDenied in RoomCreateView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-19 00:06:40,610 log Forbidden: /api/rooms/create/
+WARNING 2026-08-19 00:06:41,362 exceptions NotAuthenticated in RoomCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:06:41,362 log Unauthorized: /api/rooms/create/
+WARNING 2026-08-19 00:06:41,364 exceptions Http404 in RoomDetailView: {'detail': ErrorDetail(string='No Room matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:06:41,364 log Not Found: /api/rooms/999/
+WARNING 2026-08-19 00:06:44,394 exceptions PermissionDenied in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-19 00:06:44,394 log Forbidden: /api/rooms/1/destroy/
+WARNING 2026-08-19 00:06:45,150 exceptions PermissionDenied in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-19 00:06:45,150 log Forbidden: /api/rooms/1/update/
+WARNING 2026-08-19 00:06:45,920 exceptions NotAuthenticated in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:06:45,920 log Unauthorized: /api/rooms/1/update/
+WARNING 2026-08-19 00:06:46,358 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'password': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-19 00:06:46,359 log Bad Request: /api/register/
+WARNING 2026-08-19 00:06:46,360 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'phone_number': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-19 00:06:46,360 log Bad Request: /api/register/
+WARNING 2026-08-19 00:06:46,361 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'username': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-19 00:06:46,361 log Bad Request: /api/register/
+WARNING 2026-08-19 00:18:03,021 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='Bu tarihler arasında oda müsait değil.', code='invalid')]}
+WARNING 2026-08-19 00:18:03,022 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:18:03,404 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='This room is not available for reservation.', code='invalid')]}
+WARNING 2026-08-19 00:18:03,405 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:18:04,567 exceptions NotAuthenticated in ReservationCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:18:04,567 log Unauthorized: /api/reservations/create/
+WARNING 2026-08-19 00:18:04,952 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='You already have an active reservation.', code='invalid')]}
+WARNING 2026-08-19 00:18:04,953 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:18:08,460 exceptions NotAuthenticated in ReservationListView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:18:08,460 log Unauthorized: /api/reservations/
+WARNING 2026-08-19 00:18:10,386 exceptions Http404 in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='No Reservation matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:18:10,386 log Not Found: /api/reservations/1/
+WARNING 2026-08-19 00:18:11,576 exceptions Http404 in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='No Reservation matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:18:11,576 log Not Found: /api/reservations/1/
+WARNING 2026-08-19 00:18:16,261 exceptions NotAuthenticated in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:18:16,261 log Unauthorized: /api/reservations/1/
+WARNING 2026-08-19 00:18:17,408 exceptions MethodNotAllowed in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='Method "PATCH" not allowed.', code='method_not_allowed')}
+WARNING 2026-08-19 00:18:17,408 log Method Not Allowed: /api/reservations/1/
+WARNING 2026-08-19 00:19:10,202 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'password': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-19 00:19:10,203 log Bad Request: /api/register/
+WARNING 2026-08-19 00:19:10,204 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'phone_number': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-19 00:19:10,204 log Bad Request: /api/register/
+WARNING 2026-08-19 00:19:10,206 exceptions ValidationError in RegisterView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'username': [ErrorDetail(string='This field may not be blank.', code='blank')]}}
+WARNING 2026-08-19 00:19:10,206 log Bad Request: /api/register/
+WARNING 2026-08-19 00:19:12,979 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='Bu tarihler arasında oda müsait değil.', code='invalid')]}
+WARNING 2026-08-19 00:19:12,979 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:19:13,362 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='This room is not available for reservation.', code='invalid')]}
+WARNING 2026-08-19 00:19:13,363 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:19:14,529 exceptions NotAuthenticated in ReservationCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:19:14,530 log Unauthorized: /api/reservations/create/
+WARNING 2026-08-19 00:19:14,914 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='You already have an active reservation.', code='invalid')]}
+WARNING 2026-08-19 00:19:14,914 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 00:19:18,402 exceptions NotAuthenticated in ReservationListView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:19:18,402 log Unauthorized: /api/reservations/
+WARNING 2026-08-19 00:19:20,321 exceptions Http404 in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='No Reservation matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:19:20,321 log Not Found: /api/reservations/1/
+WARNING 2026-08-19 00:19:21,481 exceptions Http404 in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='No Reservation matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:19:21,481 log Not Found: /api/reservations/1/
+WARNING 2026-08-19 00:19:26,129 exceptions NotAuthenticated in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:19:26,129 log Unauthorized: /api/reservations/1/
+WARNING 2026-08-19 00:19:27,270 exceptions MethodNotAllowed in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='Method "PATCH" not allowed.', code='method_not_allowed')}
+WARNING 2026-08-19 00:19:27,270 log Method Not Allowed: /api/reservations/1/
+WARNING 2026-08-19 00:19:28,038 exceptions ValidationError in RoomCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': {'keybox_code': [ErrorDetail(string='Keybox code must be numeric.', code='invalid')]}}
+WARNING 2026-08-19 00:19:28,038 log Bad Request: /api/rooms/create/
+WARNING 2026-08-19 00:19:29,568 exceptions PermissionDenied in RoomCreateView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-19 00:19:29,569 log Forbidden: /api/rooms/create/
+WARNING 2026-08-19 00:19:30,339 exceptions NotAuthenticated in RoomCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:19:30,340 log Unauthorized: /api/rooms/create/
+WARNING 2026-08-19 00:19:30,341 exceptions Http404 in RoomDetailView: {'detail': ErrorDetail(string='No Room matches the given query.', code='not_found')}
+WARNING 2026-08-19 00:19:30,341 log Not Found: /api/rooms/999/
+WARNING 2026-08-19 00:19:33,442 exceptions PermissionDenied in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-19 00:19:33,442 log Forbidden: /api/rooms/1/destroy/
+WARNING 2026-08-19 00:19:34,201 exceptions PermissionDenied in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-19 00:19:34,201 log Forbidden: /api/rooms/1/update/
+WARNING 2026-08-19 00:19:34,959 exceptions NotAuthenticated in RoomRetrieveUpdateDestroyView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 00:19:34,959 log Unauthorized: /api/rooms/1/update/
+INFO 2026-08-19 00:25:04,084 autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 00:25:53,631 exceptions MethodNotAllowed in RegisterView: {'detail': ErrorDetail(string='Method "GET" not allowed.', code='method_not_allowed')}
+WARNING 2026-08-19 00:25:53,632 log Method Not Allowed: /api/register/
+INFO 2026-08-19 00:27:28,437 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\accounts\serializers.py changed, reloading.
+INFO 2026-08-19 00:27:28,935 autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 00:31:15,347 log Not Found: /api/accounts/login/
+WARNING 2026-08-19 00:31:32,793 exceptions AuthenticationFailed in TokenObtainPairView: {'detail': ErrorDetail(string='No active account found with the given credentials', code='no_active_account')}
+WARNING 2026-08-19 00:31:32,794 log Unauthorized: /api/login/
+INFO 2026-08-19 13:12:39,552 autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 13:13:01,890 log Not Found: /
+WARNING 2026-08-19 13:13:01,939 log Not Found: /favicon.ico
+WARNING 2026-08-19 13:15:49,118 exceptions NotAuthenticated in RoomCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 13:15:49,118 log Unauthorized: /api/rooms/create/
+WARNING 2026-08-19 13:15:59,676 exceptions PermissionDenied in RoomCreateView: {'detail': ErrorDetail(string='You do not have permission to perform this action.', code='permission_denied')}
+WARNING 2026-08-19 13:15:59,676 log Forbidden: /api/rooms/create/
+WARNING 2026-08-19 13:18:01,967 exceptions InvalidToken in ReservationListView: {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'errors': {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}}
+WARNING 2026-08-19 13:18:01,967 log Unauthorized: /api/reservations/
+WARNING 2026-08-19 13:19:21,016 exceptions MethodNotAllowed in ReservationCreateView: {'detail': ErrorDetail(string='Method "GET" not allowed.', code='method_not_allowed')}
+WARNING 2026-08-19 13:19:21,016 log Method Not Allowed: /api/reservations/create/
+WARNING 2026-08-19 13:19:28,573 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='You already have an active reservation.', code='invalid')]}
+WARNING 2026-08-19 13:19:28,573 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 13:23:09,384 exceptions InvalidToken in ReservationCreateView: {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'errors': {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}}
+WARNING 2026-08-19 13:23:09,384 log Unauthorized: /api/reservations/create/
+WARNING 2026-08-19 13:23:29,046 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='You already have an active reservation.', code='invalid')]}
+WARNING 2026-08-19 13:23:29,046 log Bad Request: /api/reservations/create/
+INFO 2026-08-19 13:25:02,133 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 13:25:02,620 autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 13:46:32,305 autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 13:46:49,426 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\rooms\views.py changed, reloading.
+INFO 2026-08-19 13:46:49,878 autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 13:47:37,158 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\rooms\serializers.py changed, reloading.
+INFO 2026-08-19 13:47:37,617 autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 13:59:50,316 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='You already have an active reservation.', code='invalid')]}
+WARNING 2026-08-19 13:59:50,317 log Bad Request: /api/reservations/create/
+WARNING 2026-08-19 13:59:50,349 log Not Found: /api/reservations//
+INFO 2026-08-19 14:00:16,972 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 14:00:17,475 autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 14:00:24,219 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 14:00:24,702 autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 14:00:51,895 exceptions NotAuthenticated in ReservationListView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 14:00:51,896 log Unauthorized: /api/reservations/
+WARNING 2026-08-19 14:00:51,920 exceptions NotAuthenticated in RoomCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+WARNING 2026-08-19 14:00:51,921 log Unauthorized: /api/rooms/create/
+INFO 2026-08-19 14:10:48,407 autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 14:22:38,108 exceptions ValidationError in ReservationCreateView: {'detail': 'Doğrulama hatası oluştu.', 'errors': [ErrorDetail(string='You already have an active reservation.', code='invalid')]}
+WARNING 2026-08-19 14:22:38,108 log Bad Request: /api/reservations/create/
+INFO 2026-08-19 14:25:22,732 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 14:25:22,971 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 14:25:23,209 autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 14:25:23,471 autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 14:25:27,892 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 14:25:28,137 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 14:25:28,409 autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 14:25:28,666 autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 14:25:33,085 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 14:25:33,331 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 14:25:33,588 autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 14:25:33,837 autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 14:25:40,795 exceptions AuthenticationFailed in TokenObtainPairView: {'detail': ErrorDetail(string='No active account found with the given credentials', code='no_active_account')}
+WARNING 2026-08-19 14:25:40,796 log Unauthorized: /api/login/
+INFO 2026-08-19 14:28:30,459 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 14:28:30,645 autoreload C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO 2026-08-19 14:28:30,935 autoreload Watching for file changes with StatReloader
+INFO 2026-08-19 14:28:31,112 autoreload Watching for file changes with StatReloader
+WARNING 2026-08-19 14:58:53,056 exceptions InvalidToken in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'errors': {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}}
+WARNING 2026-08-19 14:58:53,057 exceptions InvalidToken in RoomListView: {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'errors': {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}}
+WARNING 2026-08-19 14:58:53,060 log Unauthorized: /api/reservations/1/
+WARNING 2026-08-19 14:58:53,061 log Unauthorized: /api/rooms/
+WARNING 2026-08-19 15:32:28,525 exceptions InvalidToken in ReservationRetrieveDestroyView: {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'errors': {'detail': ErrorDetail(string='Given token not valid for any token type', code='token_not_valid'), 'code': ErrorDetail(string='token_not_valid', code='token_not_valid'), 'messages': [{'token_class': ErrorDetail(string='AccessToken', code='token_not_valid'), 'token_type': ErrorDetail(string='access', code='token_not_valid'), 'message': ErrorDetail(string='Token is expired', code='token_not_valid')}]}}
+WARNING 2026-08-19 15:32:28,527 log Unauthorized: /api/reservations/1/

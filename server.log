@@ -1,0 +1,180 @@
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\pagination.py:198: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'rooms.models.Room'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[19/Aug/2026 13:46:33] "GET /api/rooms/ HTTP/1.1" 200 1990
+C:\Users\ASUS\Documents\Valeris-House-Backend\rooms\views.py changed, reloading.
+INFO C:\Users\ASUS\Documents\Valeris-House-Backend\rooms\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 19, 2026 - 13:46:32
+Django version 5.2.16, using settings 'app.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+C:\Users\ASUS\Documents\Valeris-House-Backend\rooms\serializers.py changed, reloading.
+INFO C:\Users\ASUS\Documents\Valeris-House-Backend\rooms\serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 19, 2026 - 13:46:50
+Django version 5.2.16, using settings 'app.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+[19/Aug/2026 13:56:55] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 13:58:49] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 13:59:00] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 13:59:20] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 13:59:21] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 13:59:21] "GET /api/rooms/4/ HTTP/1.1" 200 641
+[19/Aug/2026 13:59:38] "POST /api/register/ HTTP/1.1" 201 66
+[19/Aug/2026 13:59:38] "POST /api/login/ HTTP/1.1" 200 489
+[19/Aug/2026 13:59:50] "POST /api/reservations/create/ HTTP/1.1" 201 59
+C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\pagination.py:198: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'reservations.models.Reservation'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[19/Aug/2026 13:59:50] "GET /api/reservations/ HTTP/1.1" 200 166
+WARNING ValidationError in ReservationCreateView: {'detail': 'Doðrulama hatasý oluþtu.', 'errors': [ErrorDetail(string='You already have an active reservation.', code='invalid')]}
+Bad Request: /api/reservations/create/
+WARNING Bad Request: /api/reservations/create/
+[19/Aug/2026 13:59:50] "POST /api/reservations/create/ HTTP/1.1" 400 93
+Not Found: /api/reservations//
+WARNING Not Found: /api/reservations//
+[19/Aug/2026 13:59:50] "DELETE /api/reservations// HTTP/1.1" 404 5525
+[19/Aug/2026 13:59:50] "GET /api/reservations/ HTTP/1.1" 200 166
+C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 19, 2026 - 13:47:37
+Django version 5.2.16, using settings 'app.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 19, 2026 - 14:00:17
+Django version 5.2.16, using settings 'app.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+[19/Aug/2026 14:00:39] "DELETE /api/reservations/2/ HTTP/1.1" 204 0
+[19/Aug/2026 14:00:39] "POST /api/reservations/create/ HTTP/1.1" 201 114
+[19/Aug/2026 14:00:51] "POST /api/token/refresh/ HTTP/1.1" 200 244
+WARNING NotAuthenticated in ReservationListView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+Unauthorized: /api/reservations/
+WARNING Unauthorized: /api/reservations/
+[19/Aug/2026 14:00:51] "GET /api/reservations/ HTTP/1.1" 401 58
+WARNING NotAuthenticated in RoomCreateView: {'detail': ErrorDetail(string='Authentication credentials were not provided.', code='not_authenticated')}
+Unauthorized: /api/rooms/create/
+WARNING Unauthorized: /api/rooms/create/
+[19/Aug/2026 14:00:51] "POST /api/rooms/create/ HTTP/1.1" 401 58
+[19/Aug/2026 14:01:15] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 14:03:32] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 14:08:31] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 14:15:09] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 14:16:41] "GET /api/rooms/2/ HTTP/1.1" 200 228
+[19/Aug/2026 14:17:53] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 14:17:53] "GET /api/rooms/2/ HTTP/1.1" 200 228
+[19/Aug/2026 14:20:51] "GET /api/rooms/ HTTP/1.1" 200 2107
+[19/Aug/2026 14:22:11] "OPTIONS /api/login/ HTTP/1.1" 200 0
+[19/Aug/2026 14:22:12] "POST /api/login/ HTTP/1.1" 200 489
+[19/Aug/2026 14:22:12] "OPTIONS /api/reservations/ HTTP/1.1" 200 0
+C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\pagination.py:198: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'reservations.models.Reservation'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[19/Aug/2026 14:22:12] "GET /api/reservations/ HTTP/1.1" 200 166
+[19/Aug/2026 14:22:38] "OPTIONS /api/reservations/create/ HTTP/1.1" 200 0
+WARNING ValidationError in ReservationCreateView: {'detail': 'Doðrulama hatasý oluþtu.', 'errors': [ErrorDetail(string='You already have an active reservation.', code='invalid')]}
+Bad Request: /api/reservations/create/
+WARNING Bad Request: /api/reservations/create/
+[19/Aug/2026 14:22:38] "POST /api/reservations/create/ HTTP/1.1" 400 93
+C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 19, 2026 - 14:00:24
+Django version 5.2.16, using settings 'app.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 19, 2026 - 14:25:23
+Django version 5.2.16, using settings 'app.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 19, 2026 - 14:25:28
+Django version 5.2.16, using settings 'app.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+WARNING AuthenticationFailed in TokenObtainPairView: {'detail': ErrorDetail(string='No active account found with the given credentials', code='no_active_account')}
+Unauthorized: /api/login/
+WARNING Unauthorized: /api/login/
+[19/Aug/2026 14:25:40] "POST /api/login/ HTTP/1.1" 401 63
+[19/Aug/2026 14:27:14] "OPTIONS /api/rooms/ HTTP/1.1" 200 0
+[19/Aug/2026 14:27:14] "GET /api/rooms/ HTTP/1.1" 200 2107
+C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\pagination.py:198: UnorderedObjectListWarning: Pagination may yield inconsistent results with an unordered object_list: <class 'reservations.models.Reservation'> QuerySet.
+  paginator = self.django_paginator_class(queryset, page_size)
+[19/Aug/2026 14:27:14] "GET /api/reservations/ HTTP/1.1" 200 169
+[19/Aug/2026 14:27:44] "POST /api/login/ HTTP/1.1" 200 489
+[19/Aug/2026 14:27:44] "GET /api/reservations/3/ HTTP/1.1" 200 114
+[19/Aug/2026 14:27:44] "GET /api/reservations/ HTTP/1.1" 200 166
+[19/Aug/2026 14:27:53] "GET /api/rooms/ HTTP/1.1" 200 2107
+C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+INFO C:\Users\ASUS\Documents\Valeris-House-Backend\reservations\views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+August 19, 2026 - 14:25:33
+Django version 5.2.16, using settings 'app.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
