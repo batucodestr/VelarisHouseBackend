@@ -1,0 +1,21 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Django
+*.log
+logs/
+db.sqlite3
+server.log
+
+# Editor
+.vscode/
+.idea/
