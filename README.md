@@ -66,7 +66,3 @@ Authenticated requests send `Authorization: Bearer <access>`.
 | POST | `reservations/create/` | User | `{room, check_in, check_out}`; enforces one active reservation per user and no date overlap per room |
 | GET | `reservations/<id>/` | User (owner) | |
 | DELETE | `reservations/<id>/` | User (owner) | Hard delete — used for both "cancel upcoming" and "remove old record" in the frontend |
-
-## Frontend
-
-The companion frontend lives in a separate repo/folder: `Velaris-House-Frontend/artifacts/hotel-reserve`. Point its `VITE_API_BASE_URL` at this server's `/api` (see that project's README).
