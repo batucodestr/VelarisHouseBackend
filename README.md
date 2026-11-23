@@ -7,7 +7,7 @@ Django + Django REST Framework API for the Velaris House hotel reservation syste
 - Python 3.12, Django 5.2, Django REST Framework
 - Auth: `djangorestframework-simplejwt` (JWT, bearer token)
 - CORS: `django-cors-headers`
-- DB: SQLite (`db.sqlite3`) — dev only
+- DB: SQLite (`db.sqlite3`) — dev only (it has test data)
 
 ## Setup
 
